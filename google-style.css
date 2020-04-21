@@ -1,3 +1,43 @@
-#img-div {
-    align-self: center;
-}
+main {
+    text-size: 30;
+  }
+  .center {
+      display:block;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 400px;
+      padding-top: 200px;
+      width: 20%;
+  }
+  
+  .top-menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .header-text {
+    display: inline;
+    float: right;
+    margin: 10px;
+  }
+  
+  .avatar {
+    font-size: 26px;
+    display: inline;
+    float: right;
+    margin: 1px 1px 1px 10px;
+    background-color: teal;
+    border-top: 7px solid teal;
+    border-left: 14px solid teal;
+    border-bottom: 7px solid teal;
+    border-right: 14px solid teal;
+    border-radius: 50%;
+  }
+  
+  .material-icons {
+    display: inline;
+    float:right;
+    font-size: 32px;
+    margin: 10px;
+  }
