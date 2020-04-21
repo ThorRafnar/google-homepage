@@ -73,6 +73,10 @@ main {
     box-shadow: 0 0 7px 3px #DDD;
   } 
   
+  .searchbar:hover {
+    box-shadow: 0 0 7px 3px #BBB;
+  }
+  
   #sform {
     font-size: 18px;
     height: 28px;
@@ -80,3 +84,53 @@ main {
     border: transparent;
   }
   
+  .buttons {
+    background-color: EEFEEF; /* Green */
+    border: none;
+    color: #767676;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  .buttons:hover {
+    background-color: #EEE;
+    box-shadow: 0 0 2px 1px #BBB;
+  }
+  
+  .bdiv {
+    display: block;
+    margin-left: 750px;
+    height: 30px;
+    margin-right: 10px;
+    width: 600px;
+  }
+  
+  .gtext {
+    display: block;
+    margin-top: 80px;
+    margin-left: 880px;
+    font-size: 13px;
+    font-family: arial, helvetia, sans-serif;
+    color: #343434;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    text-decoration: underscore;
+  }
+  
+  a:active {
+    text-decoration: underscore;
+  }
