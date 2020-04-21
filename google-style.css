@@ -5,7 +5,7 @@ main {
       display:block;
       margin-right: auto;
       margin-left: auto;
-      padding-left: 400px;
+      padding-left: 200px;
       padding-top: 200px;
       width: 20%;
   }
@@ -17,27 +17,66 @@ main {
   }
   
   .header-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555;
     display: inline;
     float: right;
-    margin: 10px;
+    margin: 14px 10px 10px 15px;
+  }
+  
+  .header-text:hover {
+    text-decoration: underline;
   }
   
   .avatar {
-    font-size: 26px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     display: inline;
     float: right;
-    margin: 1px 1px 1px 10px;
+    margin: 5px 5px 3px 10px;
     background-color: teal;
-    border-top: 7px solid teal;
-    border-left: 14px solid teal;
-    border-bottom: 7px solid teal;
-    border-right: 14px solid teal;
+    border-top: 6px solid teal;
+    border-left: 12px solid teal;
+    border-bottom: 6px solid teal;
+    border-right: 12px solid teal;
     border-radius: 50%;
   }
   
   .material-icons {
     display: inline;
     float:right;
-    font-size: 32px;
+    font-size: 26px;
     margin: 10px;
+    color: #555;
   }
+  
+  .material-icons:hover {
+    color: black;
+  }
+  
+  #search {
+    margin-top: 3px;
+    float: left;
+    color: #999;
+  }
+  
+  .searchbar {
+    display: block;
+    margin-left: 655px;
+    height: 30px;
+    margin-right: 10px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 28px;
+    box-shadow: 0 0 7px 3px #DDD;
+  } 
+  
+  #sform {
+    font-size: 18px;
+    height: 28px;
+    width: 525px;
+    border: transparent;
+  }
+  
